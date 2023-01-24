@@ -142,7 +142,7 @@ export default class Keyboard extends React.Component {
           ref={(c) => { this.dom_r = c; }}
         />
         <Button
-          color="green"
+          color="purple"
           size="s2"
           top={0}
           left={106}
@@ -151,7 +151,7 @@ export default class Keyboard extends React.Component {
           ref={(c) => { this.dom_s = c; }}
         />
         <Button
-          color="green"
+          color="purple"
           size="s2"
           top={0}
           left={16}

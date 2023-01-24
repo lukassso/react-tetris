@@ -1,5 +1,5 @@
 body{
-    background: #009688;
+    background: #37996E;
     padding: 0;
     margin: 0;
 }
@@ -10,7 +10,7 @@ body{
     top:50%;
     left:50%;
     margin:-120px 0 0 -120px;
-    color:#efcc19;
+    color:#EAE1FC;
     -webkit-animation:fadeIn 2s infinite ease-in-out;
     animation:fadeIn 2s infinite ease-in-out;
     -webkit-animation-delay:2s;
@@ -18,7 +18,7 @@ body{
     opacity:0;
 }
 .load .loader,.load .loader:before,.load .loader:after{
-    background:#efcc19;
+    background:#EAE1FC;
     -webkit-animation:load 1s infinite ease-in-out;
     animation:load 1s infinite ease-in-out;
     width:1em;
@@ -47,21 +47,21 @@ body{
 }
 @-webkit-keyframes load{
     0%,80%,100%{
-        box-shadow:0 0 #efcc19;
+        box-shadow:0 0 #EAE1FC;
         height:4em
     }
     40%{
-        box-shadow:0 -2em #efcc19;height:5em
+        box-shadow:0 -2em #EAE1FC;height:5em
     }
 }
 
 @keyframes load{
     0%,80%,100%{
-        box-shadow:0 0 #efcc19;
+        box-shadow:0 0 #EAE1FC;
         height:4em
     }
     40%{
-        box-shadow:0 -2em #efcc19;
+        box-shadow:0 -2em #EAE1FC;
         height:5em
     }
 }
